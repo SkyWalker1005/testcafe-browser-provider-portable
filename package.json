@@ -17,9 +17,6 @@
     "publish-please": "publish-please",
     "prepublish": "publish-please guard"
   },
-  "resolutions": {
-    "graceful-fs": "^4.2.9"
-  },
   "keywords": [
     "testcafe",
     "browser provider",
