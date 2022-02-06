@@ -1,6 +1,6 @@
 {
   "name": "testcafe-browser-provider-portable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "portable TestCafe browser provider plugin.",
   "repository": "https://github.com/SkyWalker1005/testcafe-browser-provider-portable",
   "homepage": "https://github.com/SkyWalker1005/testcafe-browser-provider-portable",
@@ -15,8 +15,7 @@
   "scripts": {
     "test": "gulp test",
     "publish-please": "publish-please",
-    "prepublish": "publish-please guard",
-    "preinstall": "npx npm-force-resolutions"
+    "prepublish": "publish-please guard"
   },
   "resolutions": {
     "graceful-fs": "^4.2.9"
